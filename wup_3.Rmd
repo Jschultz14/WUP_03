@@ -70,4 +70,5 @@ From this data we can see that the alcohol consumption of the front and the midd
   
 ## Conclusions
 
-
+Based on the boxplots, numerical data, and the TukeyHSD, we can say with a high degree of certainty that those who sit in the back seats consume considerably more alcohol than those who sit in the middle or front rows, as there is a significant difference between the middle and back rows and the front and back rows, but not so much difference between the middle and front rows. 
+  
