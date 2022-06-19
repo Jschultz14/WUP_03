@@ -54,6 +54,20 @@ the back show higher levels of alcohol consumption.
   
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+  
+The low p-value indicates that there is an issue in the data, and it further indicates that  
+more statistical testing should be done through a TukeyHSD test.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+  
+From this data we can see that the alcohol consumption of the front and the middle are not different, but the alcohol consumption of the front is less than the back and the same can be said of the middle and the back. Overall, the back shows more alcohol consumption than those in the middle or the front.  
+  
 ## Conclusions
 
 
