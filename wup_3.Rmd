@@ -44,8 +44,14 @@ outliers. The people in the back consume more alcohol than those in the middle o
     
 ## Numerical Summarys 
 
-
-
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+  
+Based on the data, majority of the people are seated in the middle seats, however, the back seats  
+show the greatest median, max, first and third quartile, and mean. This indicates that those in  
+the back show higher levels of alcohol consumption. 
+  
 ## Inferential Tests
 
 ## Conclusions
